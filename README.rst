@@ -5,9 +5,14 @@ collects various small helpers, which make your programming life easier
 (or arguably harder, as long you still have to figure out, how to use
 them).
 
-**Unfortunately, we do not have the resources to provide any support for
-this library. Feel inspired, file bug reports for broken bits or better
-yet pull requests, but please do not ask for help, sorry!**
+Here, we Draworld update the definition for the European country group, to reflect the latest changes.
+
+-------
+europe = ['AT','BA','BE','BG','CH','CZ','DE','GR',
+              'ES','FI','FR','HR','HU','IE','IT','LU',
+              'LT','LV','EE','DK','NL','NO','PL','PT',
+              'RO','RS','SE','SI','SK','GB']
+----------------
 
 Configuration
 -------------
