@@ -12,7 +12,7 @@ setup(
     author_email='contact@draworld.org',
     description='Varying Renewable Energy System Utilities',
     long_description=long_description,
-    url='https://github.com/Shuwei-zhang/vresutils_draworld',
+    url='https://github.com/Shuwei-zhang/vresutils',
     license='GPLv3',
     packages=find_packages(exclude=['doc', 'test']),
     use_scm_version={'write_to': 'vresutils/version.py'},
