@@ -71,9 +71,14 @@ def get_hydro_inflow(inflow_dir=None):
                             parse_dates={'date': [0,1,2]})
                 .set_index('date')['Inflow [GWh]'])
 
+    #europe = ['AT','BA','BE','BG','CH','CZ','DE','GR',
+    #          'ES','FI','FR','HR','HU','IE','IT','KV',
+    #          'LT','LV','ME','MK','NL','NO','PL','PT',
+    #          'RO','RS','SE','SI','SK','GB']
+
     europe = ['AT','BA','BE','BG','CH','CZ','DE','GR',
-              'ES','FI','FR','HR','HU','IE','IT','KV',
-              'LT','LV','ME','MK','NL','NO','PL','PT',
+              'ES','FI','FR','HR','HU','IE','IT','LU',
+              'LT','LV','EE','DK','NL','NO','PL','PT',
               'RO','RS','SE','SI','SK','GB']
 
     hyd = pd.DataFrame({cname: read_inflow(cname) for cname in europe})
